@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:payment/features/payment_details/presentation/views/widgets/payment_method.dart';
 
@@ -38,7 +36,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                   });
                 },
                 child: PaymentMethod(
-                  isActive:activeIndex == index ? true : false,
+                  isActive: activeIndex == index ? true : false,
                   paymentImage: paymentMethods[index],
                 ),
               ),

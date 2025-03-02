@@ -16,13 +16,13 @@ abstract class AppStyles {
     fontFamily: 'Inter',
     fontWeight: FontWeight.w600,
   );
-  static  TextStyle textStyle20 = TextStyle(
+  static TextStyle textStyle20 = TextStyle(
     fontSize: 20,
     fontFamily: 'Inter',
     color: Colors.black.withOpacity(0.800000011920929),
     fontWeight: FontWeight.w400,
   );
-  static  TextStyle textStyle22 = TextStyle(
+  static TextStyle textStyle22 = TextStyle(
     fontSize: 22,
     fontFamily: 'Inter',
     color: Colors.black,

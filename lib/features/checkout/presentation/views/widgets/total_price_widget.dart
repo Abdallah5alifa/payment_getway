@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/styles.dart';
@@ -11,7 +9,7 @@ class TotalPrice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Row(
+    return Row(
       children: [
         Text(
           title,
@@ -19,10 +17,7 @@ class TotalPrice extends StatelessWidget {
           style: AppStyles.textStyleBold24,
         ),
         Spacer(),
-        Text(
-          value,
-          textAlign: TextAlign.center,
-          style: AppStyles.textStyle24,),
+        Text(value, textAlign: TextAlign.center, style: AppStyles.textStyle24),
       ],
     );
   }

@@ -10,7 +10,9 @@ class SuccessView extends StatelessWidget {
     return Scaffold(
       appBar: customAppBar(title: '', context: context),
       body: Transform.translate(
-        offset: Offset(0,-16),
-        child: const SuccessViewBody()));
+        offset: Offset(0, -16),
+        child: const SuccessViewBody(),
+      ),
+    );
   }
 }

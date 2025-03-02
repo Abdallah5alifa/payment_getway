@@ -2,7 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_credit_card/flutter_credit_card.dart';
 
 class CustomCreditCard extends StatefulWidget {
-  const CustomCreditCard({super.key, required this.formKey, required this.autovalidateMode});
+  const CustomCreditCard({
+    super.key,
+    required this.formKey,
+    required this.autovalidateMode,
+  });
   final GlobalKey<FormState> formKey;
   final AutovalidateMode autovalidateMode;
 
@@ -11,7 +15,6 @@ class CustomCreditCard extends StatefulWidget {
 }
 
 class _CustomCreditCardState extends State<CustomCreditCard> {
-  
   String cardNumber = '', expiryDate = '', cvvCode = '', cardHolderName = '';
   bool showBackView = false;
   @override
@@ -33,7 +36,7 @@ class _CustomCreditCardState extends State<CustomCreditCard> {
           expiryDate: expiryDate,
           cardHolderName: cardHolderName,
           cvvCode: cvvCode,
-          onCreditCardModelChange: (creditCardModel){
+          onCreditCardModelChange: (creditCardModel) {
             setState(() {
               cardNumber = creditCardModel.cardNumber;
               expiryDate = creditCardModel.expiryDate;
@@ -44,7 +47,6 @@ class _CustomCreditCardState extends State<CustomCreditCard> {
           },
           formKey: widget.formKey,
         ),
-        
       ],
     );
   }

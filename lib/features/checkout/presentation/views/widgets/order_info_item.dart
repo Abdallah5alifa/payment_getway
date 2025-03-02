@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/styles.dart';
@@ -11,18 +9,11 @@ class OrderInfoItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Row(
+    return Row(
       children: [
-        Text(
-          title,
-          textAlign: TextAlign.center,
-          style: AppStyles.textStyle18,
-        ),
+        Text(title, textAlign: TextAlign.center, style: AppStyles.textStyle18),
         Spacer(),
-        Text(
-          value,
-          textAlign: TextAlign.center,
-          style: AppStyles.textStyle18,),
+        Text(value, textAlign: TextAlign.center, style: AppStyles.textStyle18),
       ],
     );
   }

@@ -26,13 +26,10 @@ class CardInfoWidget extends StatelessWidget {
                   text: 'Credit Card\n',
                   style: AppStyles.textStyleBold18,
                 ),
-                TextSpan(
-                  text: 'Mastercard **78',
-                  style: AppStyles.textStyle18,
-                ),
-              ]
-            )
-          )
+                TextSpan(text: 'Mastercard **78', style: AppStyles.textStyle18),
+              ],
+            ),
+          ),
         ],
       ),
     );

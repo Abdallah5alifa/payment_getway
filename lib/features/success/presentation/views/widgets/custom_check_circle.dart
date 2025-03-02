@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomCheckCircle extends StatelessWidget {
-  const CustomCheckCircle({
-    super.key,
-  });
+  const CustomCheckCircle({super.key});
 
   @override
   Widget build(BuildContext context) {

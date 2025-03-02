@@ -68,7 +68,9 @@ class SuccessCard extends StatelessWidget {
                 ),
               ],
             ),
-            SizedBox(height: ((MediaQuery.of(context).size.height * 0.2+20) /3)),
+            SizedBox(
+              height: ((MediaQuery.of(context).size.height * 0.2 + 20) / 3),
+            ),
           ],
         ),
       ),

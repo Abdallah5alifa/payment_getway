@@ -15,7 +15,7 @@ class SuccessViewBody extends StatelessWidget {
         children: [
           SuccessCard(),
           Positioned(
-            bottom: MediaQuery.of(context).size.height * 0.2+20,
+            bottom: MediaQuery.of(context).size.height * 0.2 + 20,
             left: 28,
             right: 28,
             child: CustomDashedLine(),
@@ -36,8 +36,3 @@ class SuccessViewBody extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
